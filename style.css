@@ -461,17 +461,17 @@ body {
 }
 
 .html-progress {
-    width: 80%;
+    width: 100%;
     background: #222;
 }
 
 .css-progress {
-    width: 70%;
+    width: 90%;
     background: #555;
 }
 
 .github-progress {
-    width: 60%;
+    width: 90%;
     background: #888;
 }
  .skill p {
@@ -581,4 +581,81 @@ body {
 .project-btn:hover,
 .github-btn:hover {
     transform: translateY(-4px);
+}
+.services {
+    background: #d8f3ff;
+}
+
+.service-card {
+    background: white;
+    border: 3px solid #222;
+    border-radius: 16px;
+    padding: 18px;
+    margin: 15px 0;
+    transition: 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 6px 6px 0 #222;
+}
+
+.service-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+}
+.contact-intro {
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.6;
+    margin: 15px auto 25px;
+    max-width: 500px;
+}
+
+.contact-card {
+    transition: 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 5px 5px 0 #222;
+}
+services {
+    background: #d8f3dc;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.service-card {
+    background: white;
+    border: 3px solid #222;
+    border-radius: 16px;
+    padding: 18px;
+    margin: 15px 0;
+    transition: 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 6px 6px 0 #222;
+}
+
+.service-card h3 {
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
 }
